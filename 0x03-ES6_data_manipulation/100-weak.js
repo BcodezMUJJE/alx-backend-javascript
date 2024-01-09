@@ -1,5 +1,3 @@
-// 100-weak.js
-
 const weakMap = new WeakMap();
 
 function queryAPI(endpoint) {
@@ -13,7 +11,6 @@ function queryAPI(endpoint) {
             throw new Error('Endpoint load is high');
         }
     }
-
 }
 
 export { queryAPI, weakMap };
